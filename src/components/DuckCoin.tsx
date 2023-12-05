@@ -23,9 +23,6 @@ const DuckCoin = () => {
     if (actionType === "log") {
       if (fieldValue) return console.log(fieldValue);
     }
-    if (actionType === "alert") {
-      if (fieldValue) return alert(JSON.stringify(fieldValue));
-    }
   };
 
   const handleSubmit = ({
